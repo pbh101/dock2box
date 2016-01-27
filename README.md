@@ -13,7 +13,7 @@ Dock2Box is a tool that allows you to apply Docker or File images to bare-metal 
 Traditional host provisioning uses tools such as Cobbler, Kickstart and Configuration Management tools such as SaltStack, Ansible, Puppet or Chef to
 finalize the host configuration. This means most of the complexity is late-binding i.e. while the host is being provisioned.
 
-By moving the complexity to the build step on a CI server, you move most of the complexity where it will fail earlier rather then later.
+By moving the complexity to the build step on a CI server, you move most of the complexity where it will fail earlier rather than later.
 
 Obviously not everything can be early-binding, but you can keep the things that are late-binding to a minimum and thus uncover errors sooner.
 
